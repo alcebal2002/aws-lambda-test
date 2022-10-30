@@ -1,0 +1,16 @@
+{
+    "version": "0",
+    "id": "ID",
+    "detail-type": "Scheduled Event",
+    "source": "aws.events",
+    "account": "1234567890",
+    "time": "2022-10-30T23:14:00Z",
+    "region": "eu-central-1",
+    "resources": [
+        "arn:aws:events:eu-central-1:1234567890:rule/demoschedule"
+    ],
+    "detail": {
+        "message": "it works!",
+        "myarg": 42
+    }
+}
